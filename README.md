@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img src="http://laclefdesetoiles.com/7632-full/celestron-nexstar-8-evolution.jpg" alt="vim-devicons">
+  <img src="http://laclefdesetoiles.com/7632-full/celestron-nexstar-8-evolution.jpg" alt="icon">
 </h1>
 
 # Sphinx
