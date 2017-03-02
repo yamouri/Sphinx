@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/autoguidage.o \
 	${OBJECTDIR}/comPhd2.o \
 	${OBJECTDIR}/main.o
 
@@ -62,6 +63,11 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/phd2com: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/phd2com ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/autoguidage.o: autoguidage.cgi 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/autoguidage.o autoguidage.cgi
 
 ${OBJECTDIR}/comPhd2.o: comPhd2.cpp 
 	${MKDIR} -p ${OBJECTDIR}
