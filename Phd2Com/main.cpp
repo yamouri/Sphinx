@@ -22,7 +22,7 @@
   
 int main(int argv, char * argc [])
 {
-    std::cout << "Content-type:text/html\r\n\r\n";
+    //std::cout << "Content-type:text/html\r\n\r\n";
             
     //Declaration des variables.
     struct addrinfo hints, * res;
