@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img src="http://laclefdesetoiles.com/7632-full/celestron-nexstar-8-evolution.jpg" alt="icon">
+  <img src="https://image.noelshack.com/fichiers/2017/09/1488488249-celestron-nexstar-8-evolution.jpg" alt="icon">
 </h1>
 
 # Sphinx
@@ -9,4 +9,4 @@ Le projet Sphinx permet d'utiliser une raspberry-pi et un smartphone pour utilis
 Nous utilisons une raspberry Pi 3 B+ sous l'OS Raspbian.
 Une modélisation UML sous Visual Paradigm sera faite.
 La gestion du temps est sur Time Performance.
-Le développement sera sous Netbeans en C++.
+Le développement sera sous Netbeans en C++, JQuery Mobile et Javascript.
